@@ -1,0 +1,95 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #2c3e50;
+    color: white;
+  }
+
+  .header h2 {
+    margin: 0;
+  }
+
+  .header button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+  }
+
+  .logout-btn {
+    background-color: #e74c3c;
+  }
+
+  .main-container {
+    padding: 30px 40px;
+  }
+
+  .main-container h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .item-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .item-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .item-card img {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  .item-card p {
+    margin: 4px 0;
+  }
+
+  .btn-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .btn-group button {
+    flex: 1;
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+    background-color: #95a5a6;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .btn-group .edit-btn {
+    background-color: #2ecc71;
+  }
+
+  .btn-group .delete-btn {
+    background-color: #e74c3c;
+  }
